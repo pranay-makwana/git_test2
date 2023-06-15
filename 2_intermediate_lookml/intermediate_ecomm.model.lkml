@@ -1,6 +1,7 @@
 ### Intermediate ecomm model file
 # See the INTERMEDIATE_LOOKML_README.md document for overall concepts and the business example
 ###
+include: "/test_abhi.dashboard.lookml"
 
 connection: "sample_bigquery_connection"
 

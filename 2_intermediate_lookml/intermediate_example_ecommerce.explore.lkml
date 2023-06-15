@@ -37,4 +37,10 @@ explore: intermediate_example_ecommerce {
     relationship: many_to_one
     sql_on: ${products.id} = ${inventory_items.product_id} ;;
   }
+
+  join: test_abhi {
+    type: left_outer
+    relationship: many_to_one
+    sql_on:  ${products.brand} = ${test_abhi.products_brand};;
+  }
 }
